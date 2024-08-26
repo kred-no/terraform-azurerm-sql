@@ -1,0 +1,22 @@
+# Terraform
+
+**/.terraform/*
+
+*.tfstate
+*.tfstate.*
+*.lock.hcl
+
+*.auto.tfvars
+
+override.tf
+override.tf.json
+
+*_override.tf
+*_override.tf.json
+
+# Misc
+
+crash.log
+
+# Unused/Local testing
+**/modules/sql-databases
